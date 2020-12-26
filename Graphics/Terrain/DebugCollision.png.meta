@@ -53,6 +53,9 @@ TextureImporter:
   - first:
       213: 21300032
     second: Slope1Quarter
+  - first:
+      213: -4178091851893269000
+    second: Spikes_U
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,6 +109,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -528,6 +533,27 @@ TextureImporter:
       bones: []
       spriteID: a936285e07f6f1c4b93bcb09b78fc278
       internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spikes_U
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd92f0e89f6406c0800000000000000
+      internalID: -4178091851893269000
       vertices: []
       indices: 
       edges: []
