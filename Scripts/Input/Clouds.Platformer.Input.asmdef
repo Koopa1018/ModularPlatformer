@@ -1,0 +1,16 @@
+{
+    "name": "Clouds.Platformer.Input",
+    "rootNamespace": "",
+    "references": [
+        "GUID:854eaecf61eb73547ae2b7d5c4ff8a84"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

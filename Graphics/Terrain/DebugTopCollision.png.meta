@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 3b9bb58960aba6d46ad67cd9c03e4adf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: TopSolid_Slope2Half
+  - first:
+      213: 21300002
+    second: TopSolid_Slope2
+  - first:
+      213: 21300004
+    second: TopSolid_Slope3_L
+  - first:
+      213: 21300006
+    second: TopSolid_Slope3_R
+  - first:
+      213: 21300008
+    second: TopSolid_Slope1_R
+  - first:
+      213: 21300010
+    second: TopSolid_Slope4_Q1
+  - first:
+      213: 21300012
+    second: TopSolid
+  - first:
+      213: 21300014
+    second: TopSolid_Slope4_Q3
+  - first:
+      213: 21300016
+    second: TopSolidHalf
+  - first:
+      213: 21300018
+    second: TopSolid_Slope4_Q2
+  - first:
+      213: 21300020
+    second: TopSolid_Slope4_Q4
+  - first:
+      213: 2853998361744694152
+    second: TopSolid_Slope1Half_R
+  - first:
+      213: 7491351282313993216
+    second: TopSolid_Slope1Quarter_R
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TopSolid_Slope2Half
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 0}
+        - {x: -32, y: -15}
+        - {x: 2, y: -32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -32, y: 0}
+        - {x: 32, y: -32}
+        - {x: 30, y: -32}
+        - {x: -32, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4625c80705d3714ea712d791c5183bf
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolid
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: 16}
+        - {x: 32, y: 16}
+        - {x: 32, y: 32}
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: 31}
+        - {x: 32, y: 31}
+        - {x: 32, y: 32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc6eaf7f356d44488ed8db4bbbc8a55
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolid_Slope2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: 17}
+        - {x: 32, y: -15}
+        - {x: 32, y: 0}
+      physicsShape:
+      - - {x: -32, y: 31}
+        - {x: -32, y: 32}
+        - {x: 32, y: 0}
+        - {x: 32, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6b155f14795934eb5a0542d47bbc41
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolid_Slope1_R
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: 17}
+        - {x: 17, y: -32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: 32, y: -32}
+        - {x: -32, y: 32}
+        - {x: -32, y: 31}
+        - {x: 31, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b86b4c2168a26343b72f9feabeb9a6d
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolid_Slope4_Q1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: 17}
+        - {x: 32, y: 1}
+        - {x: 32, y: 16}
+      physicsShape:
+      - - {x: 32, y: 16}
+        - {x: -32, y: 32}
+        - {x: -32, y: 31}
+        - {x: 32, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2af804850c62f4eb3d6c033840cdf3
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolid_Slope3_R
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 32}
+        - {x: -96, y: 17}
+        - {x: 51, y: -32}
+        - {x: 96, y: -32}
+      physicsShape:
+      - - {x: -96, y: 32}
+        - {x: -96, y: 31}
+        - {x: 93, y: -32}
+        - {x: 96, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7306d881415a13d4baf56c7ae2e55ca4
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolid_Slope4_Q3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 0}
+        - {x: -32, y: -15}
+        - {x: 32, y: -31}
+        - {x: 32, y: -16}
+      physicsShape:
+      - - {x: -32, y: 0}
+        - {x: -32, y: -1}
+        - {x: 32, y: -17}
+        - {x: 32, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895003a4fba690f43ad88acda2a528a0
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolidHalf
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -15}
+        - {x: 32, y: -15}
+        - {x: 32, y: 0}
+        - {x: -32, y: 0}
+      physicsShape:
+      - - {x: -32, y: 0}
+        - {x: 32, y: 0}
+        - {x: 32, y: 0}
+        - {x: 32, y: -1}
+        - {x: -32, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366464a0b1c51ff4f9bf48f65f3c7e18
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolid_Slope4_Q2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 16}
+        - {x: -32, y: 1}
+        - {x: 32, y: -15}
+        - {x: 32, y: 0}
+      physicsShape:
+      - - {x: -32, y: 16}
+        - {x: -32, y: 15}
+        - {x: 32, y: -1}
+        - {x: 32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f3d1f2cfd3e2246a5926d8844fc939
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolid_Slope4_Q4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -16}
+        - {x: -32, y: -31}
+        - {x: -28, y: -32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -32, y: -17}
+        - {x: -32, y: -16}
+        - {x: 32, y: -32}
+        - {x: 28, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a529f884581224eb96d28a71f5933d
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolid_Slope1Half_R
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 32}
+        - {x: 0, y: 32}
+        - {x: 32, y: 0}
+        - {x: 32, y: -15}
+      physicsShape:
+      - - {x: -1, y: 32}
+        - {x: 0, y: 32}
+        - {x: 32, y: 0}
+        - {x: 32, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bd65d83607b9720800000000000000
+      internalID: 2853998361744694152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TopSolid_Slope1Quarter_R
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -15}
+        - {x: -32, y: 0}
+        - {x: 0, y: -32}
+        - {x: -15, y: -32}
+      physicsShape:
+      - - {x: -32, y: -1}
+        - {x: -32, y: 0}
+        - {x: 0, y: -32}
+        - {x: -1, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c1ef5ec40a6f760800000000000000
+      internalID: 7491351282313993216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 92fd2f62cc05c1e4d8b4734fc44dcd52
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

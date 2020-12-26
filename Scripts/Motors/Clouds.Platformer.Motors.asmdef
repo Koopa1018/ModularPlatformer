@@ -1,0 +1,20 @@
+{
+    "name": "Clouds.Platformer.Motors",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Mathematics",
+        "Clouds.Inputs",
+        "Clouds.Movement",
+        "Clouds.FacingDirection.8Way",
+        "Clouds.Platformer.Collisions"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

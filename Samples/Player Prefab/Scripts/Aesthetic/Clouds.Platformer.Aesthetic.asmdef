@@ -1,0 +1,19 @@
+{
+    "name": "Clouds.Platformer.Aesthetic",
+    "references": [
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:1c460ad219a8b374eb6a4f64457a606e",
+        "GUID:460ea70dda534b64a87f7e1aa3bb5e2a",
+        "GUID:82051a89185eb3042936638c07b1f388",
+        "GUID:80a13703eef18a142a7554bae25aaf79"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
