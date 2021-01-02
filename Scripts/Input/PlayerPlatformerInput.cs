@@ -11,6 +11,7 @@ namespace Clouds.Platformer.CharacterControl {
 		#if UNITY_NEW_INPUT_SYSTEM
 		[Header("Inputs")]
 		[SerializeField] InputActionAsset inputMap;
+		[SerializeField] string actionMapName = "Platforming";
 		[SerializeField] InputActionReference walkAction;
 		[SerializeField] InputActionReference jumpAction;
 		#else
@@ -25,7 +26,7 @@ namespace Clouds.Platformer.CharacterControl {
 
 		#if UNITY_NEW_INPUT_SYSTEM
 		void Awake () {
-			inputMap.FindActionMap("Platforming", true).Enable();
+			inputMap.FindActionMap(actionMapName, true).Enable();
 		}
 		#endif
 
