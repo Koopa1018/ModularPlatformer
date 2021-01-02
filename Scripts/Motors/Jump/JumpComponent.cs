@@ -10,6 +10,17 @@ using Clouds.MovementBase;
 namespace Clouds.Platformer.Character {
 	[AddComponentMenu("Platformer/Character/Gravity/Can Jump")]
 	public class JumpComponent : MonoBehaviour {
+		[Header("Components To Read")]
+		[SerializeField] PlatformerCollisions collisions;
+		[SerializeField] ButtonInputField jumpButton;
+		[Header("Components To Write")]
+		[SerializeField] GravityComponent gravityComponent;
+		[SerializeField] GravityStrength gravityStrength;
+		[SerializeField] ScalarVelocity storedVelocity;
+		[Header("Optional Components")]
+		[SerializeField] PlatformerSlopeCollisions slopeCollisions;
+		bool hasSlopeCollisions = false;
+		
 		[Header("Function Parameters")]
 		[Tooltip("How high the jump can rise, in units.")]
 		[SerializeField] float jumpHeight = 3.2f; //((timeToJumpApex^2) * gravity.floatValue) / -2;
@@ -27,17 +38,6 @@ namespace Clouds.Platformer.Character {
 		[SerializeField] public UnityEvent onJumpedIntentionally;
 		[SerializeField] public UnityEvent onJumpedInvoluntarily;
 		[SerializeField] public UnityEvent onReleaseJump;
-
-		[Header("Components To Read")]
-		[SerializeField] PlatformerCollisions collisions;
-		[SerializeField] ButtonInputField jumpButton;
-		[Header("Components To Write")]
-		[SerializeField] GravityComponent gravityComponent;
-		[SerializeField] GravityStrength gravityStrength;
-		[SerializeField] ScalarVelocity storedVelocity;
-		[Header("Optional Components")]
-		[SerializeField] PlatformerSlopeCollisions slopeCollisions;
-		bool hasSlopeCollisions = false;
 
 		(bool has, ForcedJump value) _forcedJump;
 		/// <summary>
