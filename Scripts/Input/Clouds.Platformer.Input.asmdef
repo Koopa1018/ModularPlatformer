@@ -2,6 +2,7 @@
     "name": "Clouds.Platformer.Input",
     "rootNamespace": "",
     "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
         "GUID:854eaecf61eb73547ae2b7d5c4ff8a84"
     ],
     "includePlatforms": [],
