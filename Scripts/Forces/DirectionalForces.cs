@@ -1,12 +1,5 @@
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
-
-using Unity.Jobs;
-using Unity.Collections;
 using Unity.Mathematics;
-
-using Clouds.Movement2D;
 
 namespace Clouds.Platformer.Forces {
 	[System.Obsolete("Directional Forces has been folded into AcceptsForces and should no longer be referenced directly.")]
