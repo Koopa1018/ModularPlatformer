@@ -16,7 +16,7 @@ namespace Clouds.Platformer.Forces {
 
 		void OnEnable () {
 			//Reset added force on enable.
-			forcesToApply.ClearForce();
+			ClearForce();
 		}
 
 		void FixedUpdate () {
@@ -28,7 +28,7 @@ namespace Clouds.Platformer.Forces {
 			yVelocity.Value += forcesToApply.ForceWithDeltaTime.y;
 			
 			//Don't forget to absorb the force after using it.
-			forcesToApply.ClearForce();
+			ClearForce();
 		}
 
 		float2 addedForce, addedForceWithDT = 0;
