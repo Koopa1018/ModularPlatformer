@@ -21,11 +21,11 @@ namespace Clouds.Platformer.Forces {
 
 		void FixedUpdate () {
 			//Apply added forces to horizontal velocity
-			xVelocity.TerminalVelocity += forcesToApply.ForceRaw.y;
-			xVelocity.Value += forcesToApply.ForceWithDeltaTime.y;
+			xVelocity.TerminalVelocity += ForceRaw.y;
+			xVelocity.Value += ForceWithDeltaTime.y;
 			//And to vertical velocity.
-			yVelocity.TerminalVelocity += forcesToApply.ForceRaw.y;
-			yVelocity.Value += forcesToApply.ForceWithDeltaTime.y;
+			yVelocity.TerminalVelocity += ForceRaw.y;
+			yVelocity.Value += ForceWithDeltaTime.y;
 			
 			//Don't forget to absorb the force after using it.
 			ClearForce();
