@@ -1,3 +1,7 @@
+#if UNITY_NEW_INPUT_SYSTEM && FORCE_UNITY_INPUTMANAGER
+	#undef UNITY_NEW_INPUT_SYSTEM
+#endif
+
 using UnityEngine;
 #if UNITY_NEW_INPUT_SYSTEM
 using UnityEngine.InputSystem;
