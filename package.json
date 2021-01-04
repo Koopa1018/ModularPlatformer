@@ -7,15 +7,15 @@
   ],
   "name": "com.clouds.modular_platformer",
   "readme": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "hideInEditor": false,
   "dependencies": {
     "com.unity.mathematics": "1.1.0",
     "com.unity.burst": "1.1.0",
-	"com.clouds.input_base": "0.0.8",
-	"com.clouds.movement_2d": "3.0.0",
+    "com.clouds.input_base": "0.0.8",
+    "com.clouds.movement_2d": "3.0.0",
     "com.clouds.facing_8way": "0.1.0",
-	"com.clouds.physics2d_utils": "0.0.3"
+    "com.clouds.physics2d_utils": "0.0.3"
   },
   "repository": {
     "revision": "0",
@@ -23,10 +23,10 @@
     "url": ""
   },
   "samples": [
-     {
-       "displayName": "Player Prefab",
-       "description": "Prebuilt player character with prototyping animations and 8-bit sounds.",
-       "path": "Samples/Player Prefab"
-     }
-   ]
+    {
+      "displayName": "Player Prefab",
+      "description": "Prebuilt player character with prototyping animations and 8-bit sounds.",
+      "path": "Samples/Player Prefab"
+    }
+  ]
 }
