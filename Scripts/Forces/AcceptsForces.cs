@@ -6,10 +6,7 @@ using Clouds.Platformer.Character;
 
 namespace Clouds.Platformer.Forces {
 	[AddComponentMenu("Platformer/Forces/Accepts Forces")]
-	public class AcceptsForces : MonoBehaviour {
-		[Header("Inputs")]
-		[SerializeField] DirectionalForces forcesToApply;
-		
+	public class AcceptsForces : MonoBehaviour {		
 		[Header("Outputs")]
 		[SerializeField] ScalarVelocity xVelocity;
 		[SerializeField] ScalarVelocity yVelocity;
