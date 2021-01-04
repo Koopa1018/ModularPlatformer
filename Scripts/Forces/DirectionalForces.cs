@@ -9,6 +9,7 @@ using Unity.Mathematics;
 using Clouds.Movement2D;
 
 namespace Clouds.Platformer.Forces {
+	[System.Obsolete("Directional Forces has been folded into AcceptsForces and should no longer be referenced directly.")]
 	public class DirectionalForces : MonoBehaviour {
 		float2 addedForce, addedForceWithDT = 0;
 
@@ -16,10 +17,12 @@ namespace Clouds.Platformer.Forces {
 		public float2 ForceWithDeltaTime {get => addedForceWithDT;}
 
 		public void AcceptForce (float2 force, float timestep) {
+			Debug.LogError("Calling obsolete AcceptForce method; please call on AcceptsForces instead.", this);
 			addedForce += force;
 			addedForceWithDT += force * timestep;
 		}
 		public void AcceptForce (float forceX, float forceY, float timestep) {
+			Debug.LogError("Calling obsolete AcceptForce method; please call on AcceptsForces instead.", this);
 			AcceptForce(new float2(forceX, forceY), timestep);
 		}
 
