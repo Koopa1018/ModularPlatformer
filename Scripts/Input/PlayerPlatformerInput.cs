@@ -24,6 +24,9 @@ namespace Clouds.Platformer.CharacterControl {
 		[SerializeField] string jumpAxis = "Jump";
 		#endif
 
+		[Header("Tweaks")]
+		[SerializeField] bool invertXInput = true;
+
 		[Header("Output Fields")]
 		[SerializeField] WalkInputField walkOutput;
 		[SerializeField] JumpButtonField jumpOutput;
@@ -42,15 +45,15 @@ namespace Clouds.Platformer.CharacterControl {
 		/// </summary>
 		public void GenerateInputSignal () {
 			#if UNITY_NEW_INPUT_SYSTEM
-				walkOutput.Value = walkAction.action.ReadValue<float>();
-				jumpOutput.Value = jumpAction.action.ReadValue<float>() > 0;
+				walkOutput.Value = walkAction != null ? walkAction.action.ReadValue<float>() : 0;
+				jumpOutput.Value = jumpAction != null ? jumpAction.action.ReadValue<float>() > 0 : false;
 			#else
 				walkOutput.Value = Input.GetAxisRaw(walkAxis);
 				jumpOutput.Value = Input.GetButton (jumpAxis);
 			#endif
 
 			//Due to a quirk of Unity's 2D system, we need to invert the X axis of walking.
-			walkOutput.Value *= -1;
+			walkOutput.Value *= invertXInput ? -1 : 1;
 		}
 
 		public void ClearInputSignal () {
